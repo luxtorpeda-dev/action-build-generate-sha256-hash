@@ -2,7 +2,7 @@ name: 'Generate SHA256 Hash for File'
 description: 'Generate SHA256 Hash for File'
 author: 'd10sfan'
 runs:
-    using: 'node16'
+    using: 'node20'
     main: 'dist/index.js'
 inputs:
     file:
